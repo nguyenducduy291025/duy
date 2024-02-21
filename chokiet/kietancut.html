@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang đăng nhập</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <form action="">
+        <h1>ĐĂNG NHẬP</h1>
+        <p>
+            <label for="form-label">Họ và tên</label>
+            <input class="form-input" type="text" name="fname">
+        </p>
+        <p><label for="form-label">Tên đăng nhập</label>
+            <input class="form-input" type="text" name="user">
+        </p>
+        <p>
+            <label for="form-label">Mật khẩu</label>
+            <input class="form-input" type="text" name="password">
+        </p>
+        <p>
+            <label class="form-label" for="country">Đất nước</label>
+            <select name="country" id="">
+                <option value="">Việt Nam</option>
+                <option value="">Trung Quốc</option>
+                <option value="">Lào</option>
+                <option value="">Campuchia</option>
+                <option value="">Thái Lan</option>
+            </select>
+        </p>
+        <p>
+            <label class="form-label" for="gender">Giới tính</label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+        </p>
+        <p>
+            <label class="form-label" for="language">Ngôn ngữ</label>
+            <input type="checkbox" name="language">Tiếng Việt
+            <input type="checkbox" name="language">Tiếng Anh
+            <input type="checkbox" name="language">Tiếng Trung
+        </p>
+        <p>
+            <button id="login">Đăng nhập</button>
+            <button id="forget">Quên mật khẩu</button>
+        </p>
+    </form>
+</body>
+
+</html>

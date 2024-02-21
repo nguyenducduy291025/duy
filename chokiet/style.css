@@ -1,0 +1,18 @@
+color: palevioletred;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/*chỉnh max-width của hình ảnh sang 100%*/
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}/* Chuyển product-grid sang grid in put
+chia các grid thành các colum có kích thước tối thiểu là 250px 
+có khoảng trống giữa các colum là 20px
+*/
+.product{
+    padding: 20px;
+    text-align: center;
+}

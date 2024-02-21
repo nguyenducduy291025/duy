@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: indigo;
+}
+
+form {
+    border: 1px dashed blue;
+    width: fit-content;
+    margin-left: 34px;
+    padding: 20px;
+}
+
+.form-label {
+    width: 150px;
+    display: inline-block;
+    color: gray;
+    font-weight: bold;
+}
+
+.form-input {
+    background-color: brown;
+    color: white;
+    height: 30px;
+    width: 200px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    padding: 0px 10px;
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+}
+
+#forget {
+    background-color: rgb(5, 134, 5);
+    color: aliceblue;
+}
+
+input:checked {
+    outline: 2px solid palevioletred;
+}
